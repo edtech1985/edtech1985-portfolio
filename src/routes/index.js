@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
@@ -7,11 +8,13 @@ import SobreMim from "../pages/SobreMim";
 import Contato from "../pages/Contato";
 import Projetos from "../pages/Projetos";
 import Tecnologias from "../pages/Tecnologias";
+import GlobalStyle from "../styles/global";
 
 export default function AppRouter() {
   return (
     <Main>
       <Router>
+        <GlobalStyle />
         <StyledBackground />
         <Header />
         <Routes>

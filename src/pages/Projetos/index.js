@@ -5,8 +5,13 @@ import {
   ProjetoGrid,
   ProjetoCard,
   ProjetoLink,
-  // ProjetoImagem,
+  ProjetoImagem,
 } from "./Projetos";
+
+import card1 from "../../img/psico.png";
+import card2 from "../../img/cookies.png";
+import card3 from "../../img/consultorio.png";
+import card4 from "../../img/bones.png";
 
 const Projetos = () => {
   const { idioma } = useContext(LanguageContext);
@@ -14,10 +19,7 @@ const Projetos = () => {
     <Container>
       <ProjetoGrid>
         <ProjetoCard>
-          {/* <ProjetoImagem
-            src="https://github.com/edtech1985/react-portfolio/blob/main/img/psico.png?raw=true"
-            alt="Página - Psicóloga"
-          /> */}
+          <ProjetoImagem src={card1} alt="Página - Psicóloga" />
           <h2 idioma={idioma}>
             {idioma === "pt" && <>Site - Psicóloga</>}
             {idioma === "en" && <>Website - Psychologist</>}
@@ -34,10 +36,7 @@ const Projetos = () => {
           </ProjetoLink>
         </ProjetoCard>
         <ProjetoCard>
-          {/* <ProjetoImagem
-            src="https://github.com/edtech1985/react-portfolio/blob/main/img/cookies.png?raw=true"
-            alt="Página - Cookies"
-          /> */}
+          <ProjetoImagem src={card2} alt="Página - Cookies" />
 
           <h2 idioma={idioma}>
             {idioma === "pt" && <>Site - Cookies</>}
@@ -55,10 +54,7 @@ const Projetos = () => {
           </ProjetoLink>
         </ProjetoCard>
         <ProjetoCard>
-          {/* <ProjetoImagem
-            src="https://github.com/edtech1985/react-portfolio/blob/main/img/bones.png?raw=true"
-            alt="Página - Bonés"
-          /> */}
+          <ProjetoImagem src={card4} alt="Página - Bonés" />
 
           <h2 idioma={idioma}>
             {idioma === "pt" && <>Site - Bonés</>}
@@ -76,10 +72,7 @@ const Projetos = () => {
           </ProjetoLink>
         </ProjetoCard>
         <ProjetoCard>
-          {/* <ProjetoImagem
-            src="https://github.com/edtech1985/react-portfolio/blob/main/img/consultorio.png?raw=true"
-            alt="Página - Consultório IA"
-          /> */}
+          <ProjetoImagem src={card3} alt="Página - Consultório IA" />
 
           <h2 idioma={idioma}>
             {idioma === "pt" && <>Site - Consultório IA</>}

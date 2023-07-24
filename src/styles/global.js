@@ -1,14 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
-
-* {
+export const GlobalStyle = createGlobalStyle`
+  * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', monospace, sans-serif;
-}
+  }
 
-body {
+  body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,9 +15,9 @@ body {
     background-color: var(--bg-green);
 
     @media only screen and (max-width: 600px) {
-    height: auto;
+      height: auto;
+    }
   }
-}
 
 :root {
   --dark: #000;
@@ -26,7 +25,7 @@ body {
   --dark-green: #008000;
   --bg-green: #c4ffc4 ;
 }
-
+  
 `;
 
 export default GlobalStyle;

@@ -12,6 +12,8 @@ import {
 } from "./Header";
 import logo from "../../img/react-removebg-preview.png";
 import { LanguageContext } from "../../LanguageContext";
+// import { useDarkMode } from "../../context/DarkMode";
+// import DarkModeToggle from "./DarkMode";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +34,8 @@ function Header() {
   const handleNavItemClick = () => {
     setIsOpen(false);
   };
+
+  // const { isDarkMode, toggleDarkMode } = useDarkMode();
 
   return (
     <StyledHeader>
@@ -89,6 +93,8 @@ function Header() {
           {idioma === "en" && "Contact"}
           {idioma === "es" && "Contacto"}
         </StyledNavItem>
+
+        <StyledNavItem></StyledNavItem>
 
         <StyledNavItem onClick={handleIdiomaClick}>
           {idioma === "pt" && "🇧🇷 Language/Idioma"}
