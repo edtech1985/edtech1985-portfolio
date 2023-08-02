@@ -1,14 +1,12 @@
 import React, { useContext } from "react";
 import { Container, Titulo, TextoPrincipal } from "./Home";
 import { LanguageContext } from "../../LanguageContext";
-import { AnimatedLottie } from "../../components/Animation";
 
 const Home = () => {
   const { idioma } = useContext(LanguageContext);
 
   return (
     <Container>
-      <AnimatedLottie />
       <Titulo idioma={idioma}>
         {idioma === "pt" && <>Seja bem-vindo ao meu Portfólio</>}
       </Titulo>

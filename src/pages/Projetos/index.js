@@ -1,12 +1,6 @@
 import React, { useContext } from "react";
 import { LanguageContext } from "../../LanguageContext";
-import {
-  Container,
-  ProjetoGrid,
-  ProjetoCard,
-  ProjetoLink,
-  ProjetoImagem,
-} from "./Projetos";
+import { Container, ProjetoGrid, ProjetoCard, ProjetoImagem } from "./Projetos";
 
 import card1 from "../../img/psico.png";
 import card2 from "../../img/cookies.png";
@@ -26,7 +20,7 @@ const Projetos = () => {
             {idioma === "en" && <>Website - Psychologist</>}
             {idioma === "es" && <>Sitio Web - Psicóloga</>}
           </h2>
-          <BotaoVerProjeto href="https://psicologa-pabla-amaral.vercel.app/" />
+          <BotaoVerProjeto href="https://www.psicologapablaamaral.com.br/" />
         </ProjetoCard>
         <ProjetoCard>
           <ProjetoImagem src={card2} alt="Página - Cookies" />
@@ -36,7 +30,7 @@ const Projetos = () => {
             {idioma === "en" && <>Website - Cookies</>}
             {idioma === "es" && <>Sitio Web - Cookies</>}
           </h2>
-          <BotaoVerProjeto href="https://pump-crazy-cookies.vercel.app/" />
+          <BotaoVerProjeto href="https://www.pumpcrazy.com.br/" />
         </ProjetoCard>
         <ProjetoCard>
           <ProjetoImagem src={card4} alt="Página - Bonés" />
