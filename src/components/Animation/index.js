@@ -15,7 +15,7 @@ export const AnimatedLottie = () => {
         animationData={animationData}
         loop
         autoplay
-        style={{ width: "200px", height: "200px" }}
+        style={{ width: "10rem", height: "10rem" }}
       />
     </div>
   );
