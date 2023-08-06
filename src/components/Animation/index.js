@@ -1,6 +1,6 @@
 import React from "react";
 import Lottie from "lottie-react";
-import animationData from "./animation_world.json"; // Substitua pelo caminho correto do arquivo JSON da animação
+import animationData from "./animation_world.json";
 
 export const AnimatedLottie = () => {
   return (
