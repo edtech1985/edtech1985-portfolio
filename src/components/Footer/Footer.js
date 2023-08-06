@@ -10,15 +10,16 @@ export const StyledFooter = styled.footer`
   width: 100%;
   max-width: 100vw;
   box-sizing: border-box;
-  max-height: 8vh;
-  height: 8vh;
+  max-height: 10vh;
+  height: 10vh;
 
   @media only screen and (max-width: 600px) {
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     justify-content: center;
     flex-direction: column;
-    height: auto;
+    max-height: 20vh;
+    height: 20vh;
   }
 `;
 
@@ -26,6 +27,12 @@ export const StyledIconList = styled.ul`
   display: flex;
   margin: 0;
   padding: 0;
+  align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    justify-content: center; /* Centraliza horizontalmente */
+    flex-wrap: wrap; /* Quebra para várias linhas */
+  }
 `;
 
 export const StyledIconItem = styled.li`
@@ -43,7 +50,8 @@ export const StyledIconItem = styled.li`
     color: inherit;
   }
   @media only screen and (max-width: 600px) {
-    font-size: 1.25rem;
+    font-size: 2rem;
+    justify-content: center;
   }
 `;
 
