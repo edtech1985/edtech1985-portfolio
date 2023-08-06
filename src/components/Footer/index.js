@@ -12,6 +12,13 @@ import { LanguageContext } from "../../LanguageContext";
 
 function Footer() {
   const { idioma } = useContext(LanguageContext);
+
+  const developedByText = {
+    pt: "Desenvolvido por edtech1985",
+    en: "Developed by edtech1985",
+    es: "Desarrollado por edtech1985",
+  };
+
   return (
     <StyledFooter>
       <StyledIconList>
@@ -56,6 +63,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             alt="Github edtech1985"
+            aria-label="Github"
           >
             <FaGithub />
           </a>
@@ -70,6 +78,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -83,6 +92,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -96,6 +106,7 @@ function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -103,7 +114,7 @@ function Footer() {
         )}
       </StyledRightsReserved>
 
-      <StyledDevelopedBy>
+      {/* <StyledDevelopedBy>
         {idioma === "pt" && (
           <>
             Desenvolvido por{" "}
@@ -138,6 +149,29 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
               alt="Portfolio edtech1985"
+            >
+              <span>edtech1985</span>
+            </a>
+          </>
+        )}
+      </StyledDevelopedBy> */}
+
+      <StyledDevelopedBy>
+        {idioma && (
+          <>
+            {developedByText[idioma]}{" "}
+            <a
+              href="https://edtech1985.com.br/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Portfolio edtech1985"
+              alt={`Portfolio edtech1985 - ${
+                idioma === "pt"
+                  ? "Portfólio"
+                  : idioma === "en"
+                  ? "Portfolio"
+                  : "Portafolio"
+              }`}
             >
               <span>edtech1985</span>
             </a>
