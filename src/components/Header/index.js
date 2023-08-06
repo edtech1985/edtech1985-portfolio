@@ -42,7 +42,11 @@ function Header() {
       <StyledLogo src={logo} alt="web developer" />
       <NavbarTitle>edtech1985</NavbarTitle>
 
-      <BurgerMenuButton open={isOpen} onClick={handleMenuClick}>
+      <BurgerMenuButton
+        id="BurgerButtonMenu"
+        open={isOpen}
+        onClick={handleMenuClick}
+      >
         <span></span>
         <span></span>
         <span></span>

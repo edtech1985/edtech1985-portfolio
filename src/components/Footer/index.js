@@ -21,6 +21,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             alt="Instagram edtech1985"
+            aria-label="Instagram"
           >
             <FaInstagram />
           </a>
@@ -31,6 +32,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             alt="Linkedin edtech1985"
+            aria-label="Linkedin"
           >
             <FaLinkedin />
           </a>
@@ -42,6 +44,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             alt="WhatsApp edtech1985"
+            aria-label="WhatsApp"
           >
             <FaWhatsapp />
           </a>
@@ -52,6 +55,7 @@ function Footer() {
             href="https://github.com/edtech1985"
             target="_blank"
             rel="noreferrer"
+            alt="Github edtech1985"
           >
             <FaGithub />
           </a>
