@@ -12,23 +12,34 @@ import { LanguageContext } from "../../LanguageContext";
 
 function Footer() {
   const { idioma } = useContext(LanguageContext);
+
+  const developedByText = {
+    pt: "Desenvolvido por edtech1985",
+    en: "Developed by edtech1985",
+    es: "Desarrollado por edtech1985",
+  };
+
   return (
     <StyledFooter>
       <StyledIconList>
         <StyledIconItem>
           <a
-            href="https://www.instagram.com/psipabla/"
+            href="https://www.instagram.com/edtech1985/"
             target="_blank"
             rel="noreferrer"
+            alt="Instagram edtech1985"
+            aria-label="Instagram"
           >
             <FaInstagram />
           </a>
         </StyledIconItem>
         <StyledIconItem>
           <a
-            href="https://www.linkedin.com/in/psi-pabla/"
+            href="https://www.linkedin.com/in/edtech1985/"
             target="_blank"
             rel="noreferrer"
+            alt="Linkedin edtech1985"
+            aria-label="Linkedin"
           >
             <FaLinkedin />
           </a>
@@ -36,10 +47,11 @@ function Footer() {
 
         <StyledIconItem>
           <a
-            href="https://api.whatsapp.com/send?phone=555196950402&text=Olá%20Pabla,%20gostaria%20de%20mais%20informações%20sobre%20a%20psicoterapia.
-            "
+            href="https://api.whatsapp.com/send?phone=555192002595"
             target="_blank"
             rel="noreferrer"
+            alt="WhatsApp edtech1985"
+            aria-label="WhatsApp"
           >
             <FaWhatsapp />
           </a>
@@ -50,6 +62,8 @@ function Footer() {
             href="https://github.com/edtech1985"
             target="_blank"
             rel="noreferrer"
+            alt="Github edtech1985"
+            aria-label="Github"
           >
             <FaGithub />
           </a>
@@ -63,6 +77,8 @@ function Footer() {
               href="https://www.linkedin.com/in/edtech1985/"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -75,6 +91,8 @@ function Footer() {
               href="https://www.linkedin.com/in/edtech1985/"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -87,6 +105,8 @@ function Footer() {
               href="https://www.linkedin.com/in/edtech1985/"
               target="_blank"
               rel="noopener noreferrer"
+              alt="Linkedin edtech1985"
+              aria-label="Linkedin"
             >
               Edson Costa
             </a>
@@ -94,14 +114,15 @@ function Footer() {
         )}
       </StyledRightsReserved>
 
-      <StyledDevelopedBy>
+      {/* <StyledDevelopedBy>
         {idioma === "pt" && (
           <>
             Desenvolvido por{" "}
             <a
-              href="https://github.com/edtech1985/"
+              href="https://edtech1985.com.br/"
               target="_blank"
               rel="noreferrer"
+              alt="Portfolio edtech1985"
             >
               <span>edtech1985</span>
             </a>
@@ -111,9 +132,10 @@ function Footer() {
           <>
             Developed by{" "}
             <a
-              href="https://github.com/edtech1985/"
+              href="https://edtech1985.com.br/"
               target="_blank"
               rel="noreferrer"
+              alt="Portfolio edtech1985"
             >
               <span>edtech1985</span>
             </a>
@@ -123,9 +145,33 @@ function Footer() {
           <>
             Desarrollado por{" "}
             <a
-              href="https://github.com/edtech1985/"
+              href="https://edtech1985.com.br/"
               target="_blank"
               rel="noreferrer"
+              alt="Portfolio edtech1985"
+            >
+              <span>edtech1985</span>
+            </a>
+          </>
+        )}
+      </StyledDevelopedBy> */}
+
+      <StyledDevelopedBy>
+        {idioma && (
+          <>
+            {developedByText[idioma]}{" "}
+            <a
+              href="https://edtech1985.com.br/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Portfolio edtech1985"
+              alt={`Portfolio edtech1985 - ${
+                idioma === "pt"
+                  ? "Portfólio"
+                  : idioma === "en"
+                  ? "Portfolio"
+                  : "Portafolio"
+              }`}
             >
               <span>edtech1985</span>
             </a>

@@ -33,6 +33,7 @@ export const ItemContato = styled.li`
   flex-direction: column;
   align-items: center;
   margin: 1rem;
+  width: 10rem;
   transition: transform 0.2s;
 
   a {

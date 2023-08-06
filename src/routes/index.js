@@ -8,14 +8,13 @@ import SobreMim from "../pages/SobreMim";
 import Contato from "../pages/Contato";
 import Projetos from "../pages/Projetos";
 import Tecnologias from "../pages/Tecnologias";
-import GlobalStyle from "../styles/global";
+import { Feed } from "../pages/Feed";
 
 export default function AppRouter() {
   return (
     <Main>
+      <StyledBackground />
       <Router>
-        <GlobalStyle />
-        <StyledBackground />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
