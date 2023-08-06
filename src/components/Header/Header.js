@@ -23,6 +23,8 @@ export const StyledHeader = styled.header`
 export const StyledLogo = styled.img`
   width: auto;
   height: 8vh;
+  min-width: 48px;
+  min-height: 48px;
 `;
 
 export const StyledNavbar = styled.nav`
