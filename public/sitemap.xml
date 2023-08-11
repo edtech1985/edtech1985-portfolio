@@ -3,37 +3,37 @@
 
     <!-- Página Inicial -->
     <url>
-        <loc>https://www.edtech1985/</loc>
+        <loc>https://www.edtech1985.com/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
 
     <!-- Página de Tecnologias -->
     <url>
-        <loc>https://www.edtech1985/tecnologias</loc>
-        <changefreq>monthly</changefreq>
+        <loc>https://www.edtech1985.com/tecnologias</loc>
+        <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <!-- Página de Projetos -->
     <url>
-        <loc>https://www.edtech1985/projetos</loc>
+        <loc>https://www.edtech1985.com/projetos</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
     <!-- Página Sobre Mim -->
     <url>
-        <loc>https://www.edtech1985/sobre</loc>
+        <loc>https://www.edtech1985.com/sobre</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
     <!-- Página de Contato -->
     <url>
-        <loc>https://www.edtech1985/contato</loc>
+        <loc>https://www.edtech1985.com/contato</loc>
         <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
+        <priority>0.8</priority>
     </url>
 
 </urlset>
