@@ -8,7 +8,6 @@ import SobreMim from "../pages/SobreMim";
 import Contato from "../pages/Contato";
 import Projetos from "../pages/Projetos";
 import Tecnologias from "../pages/Tecnologias";
-import { Feed } from "../pages/Feed";
 
 export default function AppRouter() {
   return (
