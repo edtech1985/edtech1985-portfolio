@@ -32,13 +32,13 @@ export const StyledNavbar = styled.nav`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: ${({ open }) => (open ? "flex" : "none")};
     position: absolute;
     top: 0;
     right: 0;
     flex-direction: column;
-    background-color: var(--dark);
+    background-color: var(--green);
     width: 100%;
     height: 100vh;
     padding-top: 0; /* Ajuste do espaço para o menu */
@@ -67,7 +67,7 @@ export const BurgerMenuButton = styled.button`
       height: 2px;
       margin-bottom: 6px;
       position: relative;
-      background-color: var(--light-green);
+      background-color: var(--green);
       border-radius: 2px;
       transform-origin: center;
       transition: transform 0.4s ease-out, opacity 0.4s ease-out;
