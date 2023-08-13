@@ -25,7 +25,7 @@ export const StyledFooter = styled.footer`
 
 export const StyledIconList = styled.ul`
   display: flex;
-  margin: 0;
+  margin-top: 1.5rem;
   padding: 0;
   align-items: center;
 
@@ -79,7 +79,7 @@ export const StyledRightsReserved = styled.p`
 `;
 
 export const StyledDevelopedBy = styled.p`
-  margin-right: 1vw;
+  margin-right: 1rem;
   font-size: 1.25vw;
   cursor: pointer;
   a {
