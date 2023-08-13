@@ -30,6 +30,7 @@ export const StyledIconList = styled.ul`
   align-items: center;
 
   @media only screen and (max-width: 600px) {
+    margin-top: 0;
     justify-content: center; /* Centraliza horizontalmente */
     flex-wrap: wrap; /* Quebra para várias linhas */
   }
