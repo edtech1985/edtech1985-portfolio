@@ -38,10 +38,10 @@ export const StyledNavbar = styled.nav`
     top: 0;
     right: 0;
     flex-direction: column;
-    background-color: var(--green);
+    background-color: var(--dark);
     width: 100%;
     height: 100vh;
-    padding-top: 0; /* Ajuste do espaço para o menu */
+    padding-top: 0;
     z-index: 999;
   }
 `;
@@ -67,7 +67,7 @@ export const BurgerMenuButton = styled.button`
       height: 2px;
       margin-bottom: 6px;
       position: relative;
-      background-color: var(--green);
+      background-color: var(--light-green);
       border-radius: 2px;
       transform-origin: center;
       transition: transform 0.4s ease-out, opacity 0.4s ease-out;
@@ -123,6 +123,39 @@ export const NavbarTitle = styled.span`
   }
 `;
 
+// export const NavbarTitle = styled.span`
+//   font-size: 1.5vw;
+//   color: var(--light-green);
+//   display: flex;
+//   align-items: center;
+//   cursor: pointer;
+//   background: linear-gradient(to right, var(--dark) 50%, transparent 50%);
+//   background-size: 200% 100%;
+//   transition: background-position 0.9s ease;
+
+//   @media only screen and (max-width: 768px) {
+//     font-size: 1.2rem;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+
+//   @media only screen and (max-width: 420px) {
+//     font-size: 1rem;
+//   }
+
+//   @media only screen and (max-width: 340px) {
+//     font-size: 0.75rem;
+//   }
+
+//   &:hover {
+//     color: var(--dark);
+//     background-color: var(--light-green);
+//     background-position: -100% 0;
+//   }
+// `;
+
 export const StyledNavItem = styled(NavLink)`
   display: block;
   padding: 1.25vw;
@@ -159,9 +192,9 @@ export const IdiomasDropdown = styled.div`
   @media screen and (max-width: 768px) {
     display: flex;
     flex-direction: column; /* Ajuste para exibir os idiomas em coluna */
-    position: absolute; /* Adicione essa linha para posicionamento absoluto */
-    top: 75%; /* Ajuste a distância vertical em relação ao BurgerMenuButton */
-    right: 45%; /* Ajuste a distância horizontal em relação ao BurgerMenuButton */
+    position: absolute; /* Ajuste para posicionamento absoluto */
+    top: 75%; /* Ajuste distância vertical em relação ao BurgerMenuButton */
+    right: 45%; /* Ajuste distância horizontal em relação ao BurgerMenuButton */
   }
 `;
 

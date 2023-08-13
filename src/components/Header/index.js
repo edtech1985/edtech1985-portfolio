@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import {
   NavbarTitle,
   StyledHeader,
@@ -35,8 +35,18 @@ function Header() {
 
   return (
     <StyledHeader>
-      <StyledLogo src={logo} alt="web developer" />
-      <NavbarTitle>edtech1985</NavbarTitle>
+      <Link to="/">
+        <StyledLogo src={logo} alt="web developer" />
+      </Link>
+      <Link
+        href="https://www.edtech1985.com.br"
+        target="_blank"
+        rel="noreferrer"
+        alt="Desenvolvedor Websites edtech1985"
+        aria-label="Criação de Websites edtech1985"
+      >
+        <NavbarTitle> edtech1985 </NavbarTitle>
+      </Link>
 
       <BurgerMenuButton
         id="BurgerButtonMenu"
