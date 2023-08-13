@@ -49,7 +49,7 @@ export const StyledNavbar = styled.nav`
 export const BurgerMenuButton = styled.button`
   display: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: block;
     position: absolute;
     top: 15px;
@@ -98,7 +98,7 @@ export const NavbarTitle = styled.span`
   align-items: center;
   cursor: pointer;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     font-size: 1.2rem;
     position: absolute;
     top: 50%;
@@ -189,7 +189,7 @@ export const IdiomasDropdown = styled.div`
   padding: 10px;
   z-index: 999;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     display: flex;
     flex-direction: column; /* Ajuste para exibir os idiomas em coluna */
     position: absolute; /* Ajuste para posicionamento absoluto */
