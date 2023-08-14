@@ -15,6 +15,10 @@ export const StyledHeader = styled.header`
   box-sizing: border-box;
   position: relative;
 
+  a {
+    text-decoration: none;
+  }
+
   @media screen and (max-width: 768px) {
     padding-right: 50px;
   }
