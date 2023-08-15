@@ -6,16 +6,20 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     font-family: 'Roboto Mono', monospace, sans-serif;
   }
-
+  
   body {
-    width: 100vw;
-    height: 100vh;
+    margin: 0;
+    width: 97vw;
+    height: auto;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     background-color: var(--bg-green);
-
+    
     @media only screen and (max-width: 600px) {
+      width: 100vw;
       height: auto;
+      max-height: 100vh;
     }
   }
 

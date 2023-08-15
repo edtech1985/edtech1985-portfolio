@@ -19,10 +19,10 @@ export const StyledBackground = styled.div`
   top: 0;
   left: 0;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 90vh;
   background-image: url(${backgroundImage});
-  background-repeat: repeat;
   background-size: contain;
+  background-repeat: round;
   background-position: center center;
   opacity: 0.15;
   z-index: -10;
