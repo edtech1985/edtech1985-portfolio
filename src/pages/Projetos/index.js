@@ -6,6 +6,7 @@ import card1 from "../../img/psico.png";
 import card2 from "../../img/cookies.png";
 import card3 from "../../img/consultorio.png";
 import card4 from "../../img/bones.png";
+import card5 from "../../img/bones.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
@@ -13,6 +14,16 @@ const Projetos = () => {
   return (
     <Container>
       <ProjetoGrid>
+        <ProjetoCard>
+          <ProjetoImagem src={card5} alt="Página - Importados" />
+          <h2 idioma={idioma}>
+            {idioma === "pt" && <>Site - Importados</>}
+            {idioma === "en" && <>Website - Imports</>}
+            {idioma === "es" && <>Sitio Web - Importados</>}
+          </h2>
+          <BotaoVerProjeto href="https://www.mjnimports.com.br/" />
+        </ProjetoCard>
+
         <ProjetoCard>
           <ProjetoImagem src={card1} alt="Página - Psicóloga" />
           <h2 idioma={idioma}>
@@ -22,6 +33,7 @@ const Projetos = () => {
           </h2>
           <BotaoVerProjeto href="https://www.psicologapablaamaral.com.br/" />
         </ProjetoCard>
+
         <ProjetoCard>
           <ProjetoImagem src={card2} alt="Página - Cookies" />
 
