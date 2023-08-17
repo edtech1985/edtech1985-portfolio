@@ -8,6 +8,7 @@ import SobreMim from "../pages/SobreMim";
 import Contato from "../pages/Contato";
 import Projetos from "../pages/Projetos";
 import Tecnologias from "../pages/Tecnologias";
+import NotFound from "../pages/NotFound";
 
 export default function AppRouter() {
   return (
@@ -21,6 +22,8 @@ export default function AppRouter() {
           <Route path="/projetos" element={<Projetos />} />
           <Route path="/sobre" element={<SobreMim />} />
           <Route path="/contato" element={<Contato />} />
+          <Route path="/criacao-de-websites" element={<Projetos />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>

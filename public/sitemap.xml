@@ -15,6 +15,13 @@
         <priority>0.7</priority>
     </url>
 
+    <!-- Página de Criação de Websites -->
+    <url>
+        <loc>https://www.edtech1985.com.br/criacao-de-websites</loc>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
     <!-- Página de Projetos -->
     <url>
         <loc>https://www.edtech1985.com.br/projetos</loc>
