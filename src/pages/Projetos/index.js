@@ -3,10 +3,11 @@ import { LanguageContext } from "../../LanguageContext";
 import { Container, ProjetoGrid, ProjetoCard, ProjetoImagem } from "./Projetos";
 
 import card1 from "../../img/psico.png";
-import card2 from "../../img/cookies.png";
+// import card2a from "../../img/cookies.png";
+import card2 from "../../img/pumpcrazy.png";
 import card3 from "../../img/consultorio.png";
 import card4 from "../../img/bones.png";
-import card5 from "../../img/bones.png";
+import card5 from "../../img/mjn.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
