@@ -14,9 +14,9 @@ function Footer() {
   const { idioma } = useContext(LanguageContext);
 
   const developedByText = {
-    pt: "Desenvolvido por edtech1985",
-    en: "Developed by edtech1985",
-    es: "Desarrollado por edtech1985",
+    pt: "Desenvolvido por ",
+    en: "Developed by ",
+    es: "Desarrollado por ",
   };
 
   return (
@@ -24,7 +24,7 @@ function Footer() {
       <StyledIconList>
         <StyledIconItem>
           <a
-            href="https://www.instagram.com/edtech1985/"
+            href="https://www.instagram.com/dev.edtech1985/"
             target="_blank"
             rel="noreferrer"
             alt="Instagram edtech1985"
@@ -113,48 +113,6 @@ function Footer() {
           </>
         )}
       </StyledRightsReserved>
-
-      {/* <StyledDevelopedBy>
-        {idioma === "pt" && (
-          <>
-            Desenvolvido por{" "}
-            <a
-              href="https://edtech1985.com.br/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Portfolio edtech1985"
-            >
-              <span>edtech1985</span>
-            </a>
-          </>
-        )}
-        {idioma === "en" && (
-          <>
-            Developed by{" "}
-            <a
-              href="https://edtech1985.com.br/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Portfolio edtech1985"
-            >
-              <span>edtech1985</span>
-            </a>
-          </>
-        )}
-        {idioma === "es" && (
-          <>
-            Desarrollado por{" "}
-            <a
-              href="https://edtech1985.com.br/"
-              target="_blank"
-              rel="noreferrer"
-              alt="Portfolio edtech1985"
-            >
-              <span>edtech1985</span>
-            </a>
-          </>
-        )}
-      </StyledDevelopedBy> */}
 
       <StyledDevelopedBy>
         {idioma && (
