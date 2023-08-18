@@ -24,17 +24,6 @@ function Footer() {
       <StyledIconList>
         <StyledIconItem>
           <a
-            href="https://www.instagram.com/dev.edtech1985/"
-            target="_blank"
-            rel="noreferrer"
-            alt="Instagram edtech1985"
-            aria-label="Instagram"
-          >
-            <FaInstagram />
-          </a>
-        </StyledIconItem>
-        <StyledIconItem>
-          <a
             href="https://www.linkedin.com/in/edtech1985/"
             target="_blank"
             rel="noreferrer"
