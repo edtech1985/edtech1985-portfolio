@@ -9,12 +9,12 @@ export const GlobalStyle = createGlobalStyle`
   
   body {
     margin: 0;
-    width: 97vw;
+    width: 100vw;
     height: auto;
     max-height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: var(--bg-green);
+    background-color: #0d0d0d;
     
     @media only screen and (max-width: 600px) {
       width: 100vw;

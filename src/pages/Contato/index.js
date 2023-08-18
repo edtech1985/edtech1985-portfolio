@@ -22,7 +22,7 @@ export default function Contato() {
             <span>Linkedin</span>
           </a>
         </ItemContato>
-        <ItemContato>
+        {/* <ItemContato>
           <a
             href="https://www.instagram.com/edtech1985/"
             target="_blank"
@@ -31,7 +31,7 @@ export default function Contato() {
             <FaInstagram size={40} color="#E1306C" />
             <span>Instagram</span>
           </a>
-        </ItemContato>
+        </ItemContato> */}
         <ItemContato>
           <a
             href="https://api.whatsapp.com/send?phone=5551992002595"
@@ -48,7 +48,7 @@ export default function Contato() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={40} color="#000" />
+            <FaGithub size={40} color="#fff" />
             <span>Github</span>
           </a>
         </ItemContato>

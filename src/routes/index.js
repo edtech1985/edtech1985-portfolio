@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { Main, StyledBackground } from "./Routes";
+import { Main } from "./Routes";
 import Home from "../pages/Home";
 import SobreMim from "../pages/SobreMim";
 import Contato from "../pages/Contato";
@@ -13,7 +13,6 @@ import NotFound from "../pages/NotFound";
 export default function AppRouter() {
   return (
     <Main>
-      <StyledBackground />
       <Router>
         <Header />
         <Routes>

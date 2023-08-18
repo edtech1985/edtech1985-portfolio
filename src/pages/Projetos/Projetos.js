@@ -30,9 +30,11 @@ export const ProjetoCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid var(--light-green);
 
   &:hover {
-    box-shadow: 4px 10px 16px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 10px var(--light-green), 0 0 20px var(--light-green),
+      0 0 30px var(--light-green);
   }
 
   h2 {

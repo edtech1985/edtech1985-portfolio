@@ -12,8 +12,8 @@ export const Container = styled.div`
 
 export const Titulo = styled.h1`
   font-size: 2rem;
-  color: var(--dark);
-  background-color: rgba(0, 128, 0, 0.1);
+  color: var(--light-green);
+  /* background-color: rgba(0, 128, 0, 0.1); */
   margin-bottom: 1rem;
   margin-top: 1rem;
 `;
@@ -25,7 +25,7 @@ export const IconesContato = styled.ul`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: rgba(0, 128, 0, 0.1);
+  /* background-color: rgba(0, 128, 0, 0.1); */
 `;
 
 export const ItemContato = styled.li`
@@ -41,12 +41,12 @@ export const ItemContato = styled.li`
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    color: var(--dark);
+    color: var(--light-green);
     font-size: 1.1rem;
     transition: color 0.2s;
 
     &:hover {
-      color: var(--dark-green);
+      color: #fff;
     }
   }
 
