@@ -12,10 +12,10 @@ export const Container = styled.div`
 
 export const Titulo = styled.h1`
   font-size: 2rem;
-  color: var(--dark);
+  color: var(--light-green);
   margin-bottom: 1rem;
   margin-top: 1rem;
-  background-color: rgba(0, 128, 0, 0.1);
+  /* background-color: rgba(0, 128, 0, 0.1); */
 
   @media only screen and (max-width: 600px) {
     font-size: 1.25rem;
@@ -26,10 +26,10 @@ export const Titulo = styled.h1`
 
 export const TextoPrincipal = styled.p`
   font-size: 1.1rem;
-  color: var(--dark);
+  color: var(--light-green);
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  background-color: rgba(0, 128, 0, 0.1);
+  /* background-color: rgba(0, 128, 0, 0.1); */
 
   @media only screen and (max-width: 600px) {
     font-size: 0.85rem;

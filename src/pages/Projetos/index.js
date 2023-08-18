@@ -8,6 +8,7 @@ import card2 from "../../img/pumpcrazy.png";
 import card3 from "../../img/consultorio.png";
 import card4 from "../../img/bones.png";
 import card5 from "../../img/mjn.png";
+import card6 from "../../img/avr2.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
@@ -64,6 +65,16 @@ const Projetos = () => {
             {idioma === "es" && <>Sitio web - Consultorio IA</>}
           </h2>
           <BotaoVerProjeto href="https://ai-medical-office.vercel.app/" />
+        </ProjetoCard>
+        <ProjetoCard>
+          <ProjetoImagem src={card6} alt="Página - Consultório IA" />
+
+          <h2 idioma={idioma}>
+            {idioma === "pt" && <>Site - American Bully</>}
+            {idioma === "en" && <>Website - American Bully Office</>}
+            {idioma === "es" && <>Sitio web - American Bully</>}
+          </h2>
+          <BotaoVerProjeto href="https://edtech1985.com.br/" />
         </ProjetoCard>
       </ProjetoGrid>
     </Container>

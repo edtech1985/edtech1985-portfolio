@@ -12,9 +12,9 @@ export const Container = styled.div`
 
 export const TextoPrincipal = styled.p`
   font-size: 0.92rem;
-  color: var(--dark);
+  color: var(--light-green);
   line-height: 1.25;
-  background-color: rgba(0, 128, 0, 0.1);
+  /* background-color: rgba(0, 128, 0, 0.1); */
 
   @media only screen and (max-width: 600px) {
     font-size: 0.85rem;
