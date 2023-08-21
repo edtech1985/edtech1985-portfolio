@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp, FaGithub } from "react-icons/fa";
 import {
   StyledDevelopedBy,
   StyledFooter,

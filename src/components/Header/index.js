@@ -36,7 +36,11 @@ function Header() {
   return (
     <StyledHeader>
       <Link to="/">
-        <StyledLogo src={logo} alt="web developer" />
+        <StyledLogo
+          src={logo}
+          alt="Desenvolvedor Websites edtech1985"
+          aria-label="Criação de Websites edtech1985"
+        />
       </Link>
       <Link
         href="https://www.edtech1985.com.br"

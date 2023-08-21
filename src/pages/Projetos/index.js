@@ -9,6 +9,7 @@ import card3 from "../../img/consultorio.png";
 import card4 from "../../img/bones.png";
 import card5 from "../../img/mjn.png";
 import card6 from "../../img/avr2.png";
+import card7 from "../../img/landing.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
@@ -66,6 +67,18 @@ const Projetos = () => {
           </h2>
           <BotaoVerProjeto href="https://ai-medical-office.vercel.app/" />
         </ProjetoCard>
+
+        <ProjetoCard>
+          <ProjetoImagem src={card7} alt="Página - Landing Page" />
+
+          <h2 idioma={idioma}>
+            {idioma === "pt" && <>Site - Landing Page</>}
+            {idioma === "en" && <>Website - Landing Page Office</>}
+            {idioma === "es" && <>Sitio web - Landing Page</>}
+          </h2>
+          <BotaoVerProjeto href="https://criacao-de-landingpage.vercel.app/" />
+        </ProjetoCard>
+
         <ProjetoCard>
           <ProjetoImagem src={card6} alt="Página - Consultório IA" />
 
@@ -74,7 +87,7 @@ const Projetos = () => {
             {idioma === "en" && <>Website - American Bully Office</>}
             {idioma === "es" && <>Sitio web - American Bully</>}
           </h2>
-          <BotaoVerProjeto href="https://edtech1985.com.br/" />
+          <BotaoVerProjeto href="https://avrbulls.com.br/" />
         </ProjetoCard>
       </ProjetoGrid>
     </Container>
