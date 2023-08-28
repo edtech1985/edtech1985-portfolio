@@ -76,6 +76,16 @@ const Projetos = () => {
             {idioma === "en" && <>Website - Landing Page Office</>}
             {idioma === "es" && <>Sitio web - Landing Page</>}
           </h2>
+          <BotaoVerProjeto href="https://ai-dev-academy.vercel.app/" />
+        </ProjetoCard>
+        <ProjetoCard>
+          <ProjetoImagem src={card7} alt="Página - Landing Page" />
+
+          <h2 idioma={idioma}>
+            {idioma === "pt" && <>Site - Landing Page</>}
+            {idioma === "en" && <>Website - Landing Page Office</>}
+            {idioma === "es" && <>Sitio web - Landing Page</>}
+          </h2>
           <BotaoVerProjeto href="https://criacao-de-landingpage.vercel.app/" />
         </ProjetoCard>
 
