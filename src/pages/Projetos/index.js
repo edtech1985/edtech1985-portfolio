@@ -10,6 +10,7 @@ import card4 from "../../img/bones.png";
 import card5 from "../../img/mjn.png";
 import card6 from "../../img/avr2.png";
 import card7 from "../../img/landing.png";
+import card8 from "../../img/landing2.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
@@ -69,7 +70,7 @@ const Projetos = () => {
         </ProjetoCard>
 
         <ProjetoCard>
-          <ProjetoImagem src={card7} alt="Página - Landing Page" />
+          <ProjetoImagem src={card8} alt="Página - Landing Page" />
 
           <h2 idioma={idioma}>
             {idioma === "pt" && <>Site - Landing Page</>}
