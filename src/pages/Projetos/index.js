@@ -17,6 +17,8 @@ import card6 from "../../img/avr2.png";
 import card7 from "../../img/mockup/land2-3devices.png";
 // import card8 from "../../img/landing2.png";
 import card8 from "../../img/mockup/landing-3devices.png";
+import underContruction from "../../img/Under-Construction.jpg";
+
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 import AOS from "aos";
@@ -98,7 +100,7 @@ const Projetos = () => {
 
             <h2 idioma={idioma}>
               {idioma === "pt" && <>Site - Landing Page</>}
-              {idioma === "en" && <>Website - Landing Page Office</>}
+              {idioma === "en" && <>Website - Landing Page</>}
               {idioma === "es" && <>Sitio web - Landing Page</>}
             </h2>
             <BotaoVerProjeto href="https://ai-dev-academy.vercel.app/" />
@@ -109,9 +111,9 @@ const Projetos = () => {
             <ProjetoImagem src={card7} alt="Página - Landing Page" />
 
             <h2 idioma={idioma}>
-              {idioma === "pt" && <>Site - Landing Page</>}
-              {idioma === "en" && <>Website - Landing Page Office</>}
-              {idioma === "es" && <>Sitio web - Landing Page</>}
+              {idioma === "pt" && <>Site - Landing Page 2</>}
+              {idioma === "en" && <>Website - Landing Page 2 </>}
+              {idioma === "es" && <>Sitio web - Landing Page 2</>}
             </h2>
             <BotaoVerProjeto href="https://criacao-de-landingpage.vercel.app/" />
           </ProjetoCard>
@@ -119,11 +121,14 @@ const Projetos = () => {
 
         <div className="animation" data-aos="fade-left">
           <ProjetoCard>
-            <ProjetoImagem src={card6} alt="Página - Consultório IA" />
+            <ProjetoImagem
+              src={underContruction}
+              alt="Página - Consultório IA"
+            />
 
             <h2 idioma={idioma}>
               {idioma === "pt" && <>Site - American Bully</>}
-              {idioma === "en" && <>Website - American Bully Office</>}
+              {idioma === "en" && <>Website - American Bully</>}
               {idioma === "es" && <>Sitio web - American Bully</>}
             </h2>
             <BotaoVerProjeto href="https://avrbulls.com.br/" />
@@ -132,26 +137,32 @@ const Projetos = () => {
 
         <div className="animation" data-aos="fade-up">
           <ProjetoCard>
-            <ProjetoImagem src={card6} alt="Página - Consultório IA" />
+            <ProjetoImagem
+              src={underContruction}
+              alt="Página - Consultório IA"
+            />
 
             <h2 idioma={idioma}>
               {idioma === "pt" && <>Site - Projeto Latido</>}
               {idioma === "en" && <>Website - Projeto Latido</>}
               {idioma === "es" && <>Sitio web - Projeto Latido</>}
             </h2>
-            <BotaoVerProjeto href="https://avrbulls.com.br/" />
+            <BotaoVerProjeto href="https://projeto-latido.vercel.app/" />
           </ProjetoCard>
         </div>
         <div className="animation" data-aos="fade-up">
           <ProjetoCard>
-            <ProjetoImagem src={card6} alt="Página - Consultório IA" />
+            <ProjetoImagem
+              src={underContruction}
+              alt="Página - Consultório IA"
+            />
 
             <h2 idioma={idioma}>
-              {idioma === "pt" && <>Site - American Bully</>}
-              {idioma === "en" && <>Website - American Bully Office</>}
-              {idioma === "es" && <>Sitio web - American Bully</>}
+              {idioma === "pt" && <>Site - Mercado</>}
+              {idioma === "en" && <>Website - Market</>}
+              {idioma === "es" && <>Sitio web - Mercado</>}
             </h2>
-            <BotaoVerProjeto href="https://avrbulls.com.br/" />
+            <BotaoVerProjeto href="https://parmigiani.vercel.app/" />
           </ProjetoCard>
         </div>
       </ProjetoGrid>
