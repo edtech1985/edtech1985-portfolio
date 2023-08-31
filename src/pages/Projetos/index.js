@@ -2,15 +2,21 @@ import React, { useContext } from "react";
 import { LanguageContext } from "../../LanguageContext";
 import { Container, ProjetoGrid, ProjetoCard, ProjetoImagem } from "./Projetos";
 
-import card1 from "../../img/psico.png";
+// import card1 from "../../img/psico.png";
+import card1 from "../../img/psico3devices.png";
 // import card2a from "../../img/cookies.png";
-import card2 from "../../img/pumpcrazy.png";
-import card3 from "../../img/consultorio.png";
-import card4 from "../../img/bones.png";
-import card5 from "../../img/mjn.png";
+// import card2 from "../../img/pumpcrazy.png";
+import card2 from "../../img/cookies-3devices.png";
+// import card3 from "../../img/consultorio.png";
+import card3 from "../../img/doctor-3devices.png";
+// import card4 from "../../img/bones.png";
+import card4 from "../../img/bones-3devices.png";
+// import card5 from "../../img/mjn.png";
+import card5 from "../../img/mjnimports-3devices.png";
 import card6 from "../../img/avr2.png";
 import card7 from "../../img/landing.png";
-import card8 from "../../img/landing2.png";
+// import card8 from "../../img/landing2.png";
+import card8 from "../../img/landing-3devices.png";
 import BotaoVerProjeto from "../../components/ProjectButton/BotaoVerProjeto";
 
 const Projetos = () => {
