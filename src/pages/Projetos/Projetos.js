@@ -14,11 +14,15 @@ export const ProjetoGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
 
   @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
+  }
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    grid-template-columns: repeat(3, 1fr);
   }
 `;
 
@@ -31,6 +35,7 @@ export const ProjetoCard = styled.div`
   flex-direction: column;
   align-items: center;
   border: 2px solid var(--light-green);
+  min-height: 80%;
 
   &:hover {
     box-shadow: 0 0 10px var(--light-green), 0 0 20px var(--light-green),
@@ -51,8 +56,8 @@ export const ProjetoLink = styled.a`
   background-color: var(--dark-green);
   padding: 0.5rem 1rem;
   border-radius: 12px;
-  border: 2px solid transparent; /* Adicionando uma borda transparente */
-  transition: background-color 0.3s ease, border 0.3s ease; /* Adicionando a transição para a borda */
+  border: 2px solid transparent;
+  transition: background-color 1s ease-in-out, border 1s ease-in-out;
 
   &:hover {
     background-color: var(--dark);
@@ -69,6 +74,6 @@ export const ProjetoImagem = styled.img`
   transition: transform 0.3s ease;
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.5);
   }
 `;
